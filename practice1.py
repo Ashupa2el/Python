@@ -31,12 +31,12 @@
 # line = '+' + name + '+'
 # space = ''
 # for _ in name:
-    # space += ' '                #assigning variable to make spaces in between of words
-    
+#     space += ' '                #assigning variable to make spaces in between of words
 # print(line)
 # for char in name:
 #     print(char + space + char)
 # print(line)
+
 # a = 5
 # print(type(a))                 # code for checking data types
 
@@ -70,8 +70,21 @@
 #     print(space+char)                       l
 #     space += ' '                             d
 
-name = 'World'
-line = ''
-for char in name:
-    line = line + char
-    print(line)
+
+# name = 'World'                             World
+# for char in name:                output =  Worl
+#     print(name)                            Wor
+#     name = name[:-1]                       Wo
+
+
+# a = int(input("Enter your number: "))
+# x = int(input("Enter number you want loop end: "))
+# for _ in range(x):
+#     print(a)
+#     a = a+1
+
+# a = int(input("Enter your number: "))
+
+# for _ in range(10):
+#     print(a)
+#     a = a * a

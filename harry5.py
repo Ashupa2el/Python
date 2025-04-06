@@ -1,5 +1,5 @@
 print('ashu',5,9, sep='~')
-print('ashu',5,9, end='009')
+print('ashu',5,9, end=' 009')
 print('ap')
 print('ashu',5,9, end='009\n')
 print('ap')
