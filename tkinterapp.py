@@ -4,27 +4,11 @@ from tkinter import ttk
 import random
 
 def get_answer(answer_number):
-    if answer_number == 1:
-        return "you got chocolate"
-    elif answer_number == 2:
-        return "you got pen"
-    elif answer_number == 3:
-        return "you got eraser"
-    elif answer_number == 4:
-        return "you got cycle"
-    elif answer_number == 5:
-        return "you got ball"
-    elif answer_number == 6:
-        return "you got book"
-    elif answer_number == 7:
-        return "you got money"
-    elif answer_number == 8:
-        return "you got game"
-    else:
-        return "Invalid number"  # Handle unexpected input
+    string = ["you got chocolate", "you got pen", "you got eraser", "you got cycle", "you got ball", "you got book", "you got money", "you got game"]
+    return string[answer_number]
 
 def result():
-    answer = get_answer(random.randint(1, 8))
+    answer = get_answer(random.randint(0, 7))
     label.config(text=answer.capitalize())  # Display the result in the label
 
 window = tk.Tk()
