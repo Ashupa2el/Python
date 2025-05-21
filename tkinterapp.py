@@ -13,7 +13,7 @@ def result():
 
 window = tk.Tk()
 window.title("Random Gift Generator")
-window.geometry("500x200+170+90")  # Set window size
+window.geometry("500x250+250+90")  # Set window size
 
 
 gift_icon = tk.PhotoImage(file=r"C:\Desktop\CODES\resources\gift_icon.png")
