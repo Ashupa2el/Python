@@ -19,29 +19,29 @@
 #•	Write a Python program that converts temperature from Celsius to Fahrenheit.
 #  The program should ask the user for the temperature in Celsius and then display the equivalent temperature in Fahrenheit.
 
-# celcius = float(input("Enter the celcius: "))
-# fahreinheit = (celcius * (9/5)) + 32
+celcius = float(input("Enter the celcius: "))
+fahreinheit = (celcius * (9/5)) + 32
 
-# print(f"fahrenheit is equal to {fahreinheit}")
+print(f"fahrenheit is equal to {fahreinheit}")
 
 ######################################################################################################################
 
-meal = []
-tax = 0.25
-price = 0
+# meal = []
+# tax = 0.25
+# price = 0
 
-while True:
-    food = input("Enter the food (type q to quit): ")
-    meal.append(food)
-    if food.lower() == "q":
-        break
-    else:
-        price = float(input(f"Price of {food} is: "))
-        price += price
+# while True:
+#     food = input("Enter the food (type q to quit): ")
+#     meal.append(food)
+#     if food.lower() == "q":
+#         break
+#     else:
+#         price = float(input(f"Price of {food} is: "))
+#         price += price
     
-tip = price * (18/100)
+# tip = price * (18/100)
 
-# print(food)
-print(price)
-print(tip)
-print(meal)
+# # print(food)
+# print(price)
+# print(tip)
+# print(meal)
